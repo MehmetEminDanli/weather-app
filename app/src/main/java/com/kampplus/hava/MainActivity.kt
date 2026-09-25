@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
             HavaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Hava",
+                        name = "Hav",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
